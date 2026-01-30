@@ -130,7 +130,7 @@ const Header: React.FC = () => {
           <Link
             href='/#contact'
             className='hidden xl:block px-4 py-2 bg-primary text-white rounded-lg outline-none hover:bg-transparent hover:text-primary border border-primary duration-500 text-base font-semibold'>
-            Contact Us
+            Contact Me
           </Link>
           <button
             onClick={() => setNavbarOpen(!navbarOpen)}
