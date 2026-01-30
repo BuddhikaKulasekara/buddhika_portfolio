@@ -116,14 +116,7 @@ const Review = () => {
                         height={48}
                         className='rounded-full'
                       />
-                      {/*<div className='absolute bottom-0 right-0'>
-                          <Image
-                            src={'/images/banner/greentick.svg'}
-                            alt='tick'
-                            width={15}
-                            height={15}
-                          />
-                    </div>*/}
+
                     </div>
                     <div>
                       <h6>{item.name}</h6>
