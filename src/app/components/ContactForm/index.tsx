@@ -89,7 +89,7 @@ const ContactForm = () => {
                     name='firstname'
                     value={formData.firstname}
                     onChange={handleChange}
-                    placeholder='John'
+                    placeholder='Buddhika'
                     className='w-full text-base px-4 rounded-lg border-black/20 dark:border-white/20 py-2.5 border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:outline-0'
                   />
                 </div>
@@ -105,7 +105,7 @@ const ContactForm = () => {
                     name='lastname'
                     value={formData.lastname}
                     onChange={handleChange}
-                    placeholder='Doe'
+                    placeholder='Kulasekara'
                     className='w-full text-base px-4 rounded-lg border-black/20 dark:border-white/20 py-2.5 border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:outline-0'
                   />
                 </div>
@@ -123,7 +123,7 @@ const ContactForm = () => {
                     name='email'
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder='john.doe@example.com'
+                    placeholder='kulasekara767@gmail.com'
                     className='w-full text-base px-4 rounded-lg border-black/20 dark:border-white/20 py-2.5 border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:outline-0'
                   />
                 </div>
@@ -137,7 +137,7 @@ const ContactForm = () => {
                     id='Phnumber'
                     type='tel'
                     name='phnumber'
-                    placeholder='+1234567890'
+                    placeholder='+94 76 162 7842'
                     value={formData.phnumber}
                     onChange={handleChange}
                     className='w-full text-base px-4 py-2.5 rounded-lg border-black/20 dark:border-white/20 border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:outline-0'
@@ -161,10 +161,9 @@ const ContactForm = () => {
                   type='submit'
                   disabled={!isFormValid || loader}
                   className={`border leading-none px-6 text-lg font-medium py-4 rounded-lg 
-                    ${
-                      !isFormValid || loader
-                        ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-                        : 'bg-primary border-primary text-white hover:bg-transparent hover:text-primary cursor-pointer'
+                    ${!isFormValid || loader
+                      ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                      : 'bg-primary border-primary text-white hover:bg-transparent hover:text-primary cursor-pointer'
                     }`}>
                   Submit
                 </button>
