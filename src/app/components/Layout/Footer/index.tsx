@@ -30,7 +30,7 @@ const Footer = () => {
           <div className='w-fit'>
             <Logo />
           </div>
-          <div className='flex sm:flex-row flex-col sm:items-center gap-8'>
+          {/*<div className='flex sm:flex-row flex-col sm:items-center gap-8'>
             <p className='text-darkblue dark:text-white text-lg font-medium'>
               Newsletter
             </p>
@@ -41,13 +41,13 @@ const Footer = () => {
                 placeholder='Email Address*'
                 className='py-2.5 pl-3 pr-32 text-sm rounded-lg placeholder:text-lightgrey border border-lightgrey/30 focus:border-primary focus:outline-0 w-full'
               />
-              {/*<div className='absolute bottom-0 right-0'>
+              <div className='absolute bottom-0 right-0'>
                 <button className='px-4 py-2 text-base font-medium text-white border rounded-lg border-primary bg-primary'>
                   Subscribe
                 </button>
-              </div>*/}
+              </div>
             </div>
-          </div>
+          </div>*/}
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-16 xl:gap-8'>
           {/* CLOUMN-1 */}
