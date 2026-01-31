@@ -41,11 +41,11 @@ const Footer = () => {
                 placeholder='Email Address*'
                 className='py-2.5 pl-3 pr-32 text-sm rounded-lg placeholder:text-lightgrey border border-lightgrey/30 focus:border-primary focus:outline-0 w-full'
               />
-              <div className='absolute bottom-0 right-0'>
+              {/*<div className='absolute bottom-0 right-0'>
                 <button className='px-4 py-2 text-base font-medium text-white border rounded-lg border-primary bg-primary'>
                   Subscribe
                 </button>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>
