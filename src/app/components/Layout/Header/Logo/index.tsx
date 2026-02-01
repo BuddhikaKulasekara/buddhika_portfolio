@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <Link href='/'>
       <Image
-        src='/images/logo/logo.svg'
+        src='/images/logo/black-logo.webp'
         alt='logo'
         width={151}
         height={56}
