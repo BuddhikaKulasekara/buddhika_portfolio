@@ -53,7 +53,15 @@ const Footer = () => {
           {/* CLOUMN-1 */}
           <div className='lg:col-span-4 sm:col-span-2 flex flex-col gap-5'>
             <div className='flex gap-4'>
-              <Link href='/'>
+              <Link href='https://wa.me/qr/UIPCD33W6EYMH1' target='_blank'>
+                <Icon
+                  icon='tabler:brand-whatsapp'
+                  width={45}
+                  height={45}
+                  className='text-darkblue dark:text-white bg-darkmode/5 dark:bg-white/10 rounded-lg p-2 hover:text-primary dark:hover:text-primary duration-300'
+                />
+              </Link>
+              <Link href='https://www.instagram.com/buddhika_01/' target='_blank'>
                 <Icon
                   icon='tabler:brand-instagram'
                   width={45}
@@ -61,25 +69,17 @@ const Footer = () => {
                   className='text-darkblue dark:text-white bg-darkmode/5 dark:bg-white/10 rounded-lg p-2 hover:text-primary dark:hover:text-primary duration-300'
                 />
               </Link>
-              <Link href='/'>
+              <Link href='https://www.linkedin.com/in/buddhika-kulasekara-7b7866211/' target='_blank'>
                 <Icon
-                  icon='tabler:brand-dribbble'
+                  icon='tabler:brand-linkedin'
                   width={45}
                   height={45}
                   className='text-darkblue dark:text-white bg-darkmode/5 dark:bg-white/10 rounded-lg p-2 hover:text-primary dark:hover:text-primary duration-300'
                 />
               </Link>
-              <Link href='/'>
+              <Link href='https://www.facebook.com/chathuranga.buddhika.5095' target='_blank'>
                 <Icon
-                  icon='tabler:brand-twitter-filled'
-                  width={45}
-                  height={45}
-                  className='text-darkblue dark:text-white bg-darkmode/5 dark:bg-white/10 rounded-lg p-2 hover:text-primary dark:hover:text-primary duration-300'
-                />
-              </Link>
-              <Link href='/'>
-                <Icon
-                  icon='tabler:brand-youtube-filled'
+                  icon='tabler:brand-facebook'
                   width={45}
                   height={45}
                   className='text-darkblue dark:text-white bg-darkmode/5 dark:bg-white/10 rounded-lg p-2 hover:text-primary dark:hover:text-primary duration-300'
