@@ -31,8 +31,7 @@ const Specialize = () => {
         <div className='text-center mb-8'>
           <h2 className='mb-6'>My Expertise</h2>
           <p className='text-lg font-normal max-w-2xl mx-auto'>
-            Our team crafts creative strategies that elevate your brand, engage
-            your audience, and drive results.
+            I craft creative strategies that elevate your brand, engage your audience, and drive real, measurable results through smart digital solutions.
           </p>
         </div>
         {/*  */}
