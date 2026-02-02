@@ -24,7 +24,7 @@ const NavLinkData: NavLinkType[] = [
 
   {
     label: 'Home',
-    href: '/#pricing',
+    href: '/#Home',
   },
   {
     label: 'project',
