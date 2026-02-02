@@ -23,7 +23,7 @@ const HeroData: HeroType[] = [
 const NavLinkData: NavLinkType[] = [
 
   {
-    label: 'Pricing',
+    label: 'Home',
     href: '/#pricing',
   },
   {
