@@ -21,6 +21,11 @@ const HeroData: HeroType[] = [
 ]
 
 const NavLinkData: NavLinkType[] = [
+
+  {
+    label: 'Pricing',
+    href: '/#pricing',
+  },
   {
     label: 'project',
     href: '/#project',
@@ -29,10 +34,7 @@ const NavLinkData: NavLinkType[] = [
     label: 'Expertise',
     href: '/#expertise',
   },
-  {
-    label: 'Pricing',
-    href: '/#pricing',
-  },
+
   {
     label: 'Categories',
     href: '/#categories',
