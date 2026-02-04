@@ -43,6 +43,10 @@ const NavLinkData: NavLinkType[] = [
 
 const ProjectData: ProjectType[] = [
   {
+    coverImg: '/images/project/chef_kitchen.webp',
+    name: 'Resturant & Reservation System',
+  },
+  {
     coverImg: '/images/project/ONBS.webp',
     name: 'Online Appointment Booking System',
   },
