@@ -96,7 +96,7 @@ const Review = () => {
     <section className='bg-secondary dark:bg-darklight'>
       <div className='container'>
         <div className='mb-10 text-center'>
-          <h2>Client Reviews</h2>
+          <h2>About Me</h2>
         </div>
         {/* slider */}
         <Slider {...settings}>
