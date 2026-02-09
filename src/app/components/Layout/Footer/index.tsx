@@ -112,7 +112,7 @@ const Footer = () => {
           </div>
           {/* CLOUMN-3 */}
           <div className='lg:col-span-4 col-span-1'>
-            <div className='flex gap-2'>
+            {/*<div className='flex gap-2'>
               <Icon
                 icon={'tabler:map-pin'}
                 width={22}
@@ -122,7 +122,7 @@ const Footer = () => {
               <p className='text-base font-normal text-offwhite'>
                 925 Filbert Street Pennsylvania 18072
               </p>
-            </div>
+            </div>*/}
             <div className='flex gap-2 mt-10'>
               <Icon
                 icon={'tabler:phone'}

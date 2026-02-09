@@ -240,9 +240,7 @@ const FooterLinkData: FooterLinkType[] = [
   {
     section: 'Support',
     links: [
-      { label: 'Help center', href: '/' },
       { label: 'Terms of service', href: '/' },
-      { label: 'Legal', href: '/' },
       { label: 'Privacy Policy', href: '/' },
     ],
   },
