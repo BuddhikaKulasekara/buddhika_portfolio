@@ -99,7 +99,7 @@ const Project = () => {
                       </div>
                       <div className='flex items-center gap-2'>
                         <Image
-                          src={'/images/project/get-nextjs-logo.svg'}
+                          src={'/images/project/get-nextjs-logo.ico'}
                           alt={'logo'}
                           width={31}
                           height={31}
