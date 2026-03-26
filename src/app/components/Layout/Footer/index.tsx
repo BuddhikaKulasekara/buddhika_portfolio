@@ -61,9 +61,9 @@ const Footer = () => {
                   className='text-darkblue dark:text-white bg-darkmode/5 dark:bg-white/10 rounded-lg p-2 hover:text-primary dark:hover:text-primary duration-300'
                 />
               </Link>
-              <Link href='https://www.instagram.com/buddhika_01/' target='_blank'>
+              <Link href='https://github.com/BuddhikaKulasekara' target='_blank'>
                 <Icon
-                  icon='tabler:brand-instagram'
+                  icon='tabler:brand-github'
                   width={45}
                   height={45}
                   className='text-darkblue dark:text-white bg-darkmode/5 dark:bg-white/10 rounded-lg p-2 hover:text-primary dark:hover:text-primary duration-300'
